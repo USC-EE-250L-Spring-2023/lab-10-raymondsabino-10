@@ -1,3 +1,6 @@
+#Raymond Sabino
+#https://github.com/USC-EE-250L-Spring-2023/lab-10-raymondsabino-10
+
 from flask import Flask, request, jsonify
 import numpy as np
 

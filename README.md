@@ -23,9 +23,12 @@ Question 3: Are the processing functions executing in parallel or just concurren
 
 Question 4: What is the best offloading mode? Why do you think that is?
 
-	Answer: 
+	Answer: The best offloading mode is when process1 is offloaded. This is because the tasks run in parallel, and process1 happens to be slightly more complex, so the greater computing power of the laptop executes it faster than the Raspberry Pi.
 
 Question 5: What is the worst offloading mode? Why do you think that is?
-
+	
+	Answer: The worst offloading mode is None. This is because both tasks run on the weaker hardware of the Raspberry Pi, and the processes do not run in parallel.
 
 Question 6: The processing functions in the example aren't very likely to be used in a real-world application. What kind of processing functions would be more likely to be used in a real-world application? When would you want to offload these functions to a server?
+	
+	Answer: Processing functions that would be more likely to be used in a real-world applicaiton could be something like performing Fourier transforms on signal data. Performing this on large datasets can be taxing on one computer, so offloading different parts of data to different systems can allow for faster processing on a server, or multiple servers.
